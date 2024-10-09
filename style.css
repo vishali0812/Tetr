@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.TetrDisrupt {
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.TetrDisrupt {
+    background: rgba(247, 250, 235, 1);
+}
+
+.TetrWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TetrDisruptLeft {
+    display: flex;
+    flex-direction: column;
+    max-width: 524px;
+    gap: 40px;
+}
+
+.DisruptHeadingWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.DisruptHeading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    color: rgba(28, 41, 26, 1);
+}
+
+.highlight {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    color: rgba(28, 41, 26, 1);
+    background: rgba(184, 239, 67, 1);
+    text-align: left;
+    padding:5px;
+}
+
+.DisruptContent {
+    margin-top: 40px;
+    max-width: 461px;
+}
+
+.DisruptText {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.92px;
+    color: rgba(28, 41, 26, 1);
+}
+
+.TetrDisruptRight {
+    max-width: 588.91px;
+    position: relative;
+}
+
+.playBtn {
+    position: absolute;
+    top: 42%;
+    left: 45%;
+}
+
+.buttons {
+    display: flex;
+    gap: 13px;
+    margin-top: 36px;
+}
+
+.BtnDisrupt {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 122, 0, 1);
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    color: rgba(247, 250, 235, 1);
+    border: none;
+    text-transform: uppercase;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.BtnDisruptBlack {
+    display: flex;
+    gap: 25px;
+    background: var(--Dark-Green, rgba(28, 41, 27, 1));
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    color: rgba(247, 250, 235, 1);
+    border: none;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.DisruptCities {
+    background:url(/pics/Bg.png) rgba(247, 250, 235, 1);
+    padding: 80px 0;
+}
+
+.CitiesWrapper {
+    display: flex;
+    margin-top: 40px;
+    gap: 103px;
+}
+
+.CitiesHeading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    color: rgba(28, 41, 27, 1);
+}
+
+.highlightCities{
+    background: var(--Electric, rgba(181, 248, 39, 1));
+   padding: 3px;
+
+}
+
+.CitiesList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cities {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.citiesName {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.scroll {
+    margin-top: 80px;
+    display: flex;
+    gap: 16px;
+}
+
+.Signup {
+    padding: 80px 0;
+    background: rgba(28, 41, 27, 1);
+}
+
+.SignupWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SignupLeft {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.SignupHeading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    color: rgba(28, 41, 27, 1);
+}
+
+.signupText {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(247, 250, 235, 1);
+}
+
+.SignupForm {
+    width: 100%;
+    max-width: 526px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input {
+    background: rgba(255, 255, 255, 1);
+    padding: 16px 26px 16px 26px;
+    border: 1px solid rgba(19, 28, 18, 0.1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.38px;
+    color: rgba(19, 28, 18, 0.6);
+    width: 100%;
+}
+
+input::placeholder {
+    color: rgba(19, 28, 18, 0.6);
+
+}
+.inputText{
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+    gap: 16px;    
+}
+
+input[type="checkbox"] {
+    width: max-content;
+}
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.SignupBtn {
+    background: rgba(184, 239, 67, 1);
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13px;
+    cursor: pointer;
+}
+
+.invite {
+    padding: 80px 0;
+    background: rgba(184, 239, 67, 1);
+}
+
+.inviteWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inviteLeft {
+    display: flex;
+    flex-direction: column;
+    max-width: 598px;
+}
+
+.inviteHeadingWrapper{
+    display: flex;
+    gap: 16px;
+}
+
+.inviteHeading{ 
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(28, 41, 26, 1);
+}
+
+.inviteicon {
+    width: 29px;
+}
+
+.inviteText{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(28, 41, 26, 1);
+}
+
+.inviteRight{
+    width: 100%;
+    max-width: 375px;
+    background: rgba(255, 122, 0, 1);
+    position: relative;
+}
+
+.btnText{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(243, 247, 225, 1);
+    padding: 97px 0 37px 40px;
+    display: flex;
+    gap: 35px;
+}
+
+.invitebtn{
+    width: 17px;
+    position: absolute;
+    left: 324px;
+    top: 36px;
+}
